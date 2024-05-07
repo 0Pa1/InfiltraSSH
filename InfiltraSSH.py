@@ -14,7 +14,7 @@ def valid_ip(ip):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='SSH Brute Force tool by v0id.')
+    parser = argparse.ArgumentParser(description='SSH Brute Force tool by 0Pa1.')
     parser.add_argument('-t', '--target', required=True, type=valid_ip, help='Target IP')
     parser.add_argument('-u', '--username', required=True, help=' Target Username')
     parser.add_argument('-w', '--wordlist', required=True, help='Full path to password file')
